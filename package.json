@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "level-4-capstone-server",
   "version": "1.0.0",
   "private": true,
@@ -26,6 +27,37 @@
     "globals": "^15.0.0",
     "prisma": "^6.5.0",
     "supertest": "^7.1.1",
+=======
+  "name": "level-4-capstone-client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@vitejs/plugin-react": "^4.3.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.0.0",
+    "jsdom": "^28.1.0",
+    "vite": "^6.0.0",
+>>>>>>> 0fb4755c9471fc70812e6e87f4e4075c461f7ab8
     "vitest": "^4.0.18"
   }
 }

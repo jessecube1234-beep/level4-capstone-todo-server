@@ -1,6 +1,12 @@
 node_modules
+<<<<<<< HEAD
 .env
 dist
 coverage
+=======
+dist
+.DS_Store
+.env
+>>>>>>> 0fb4755c9471fc70812e6e87f4e4075c461f7ab8
 
 *.log
